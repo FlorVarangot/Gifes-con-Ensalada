@@ -38,3 +38,9 @@ Para más información, contactar a:
 - **Diseño y desarrollo:** Flor R. Varangot
 - **Asesoría y contribuciones**: Alfredo Leonardo Otazo 
 - **Imágenes:** GCE
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+## Derechos Reservados 
+Todos los derechos reservados. Este proyecto y su contenido no pueden ser copiados, distribuidos o reproducidos sin el permiso expreso del autor.
