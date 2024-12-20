@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 :root {
     --primary-color: #eee;
-    --secondary-color: #ddd;
-    --third-color: #ff6699;
-    --back-mobile: #fdc82a;
-    --back-color: linear-gradient(135deg, #fdc82a, #ff6699);
     --font-gral: 1.5rem;
     --font-dos: 1rem;
     --font-mini: 0.8rem;
@@ -12,174 +8,167 @@
 }
 
 a{
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family:'Titillium Web', Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Titillium Web', Arial, Helvetica, sans-serif;
 }
 
 .body{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
 
-    background-image: url(/assets/images/Fondo-Horizontal-1440x1350.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/assets/images/IMG_9048.PNG); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    justify-items: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  justify-items: center;
 
-    font-family: 'Titillium Web', sans-serif;
-    overflow:visible;
+  font-family: 'Titillium Web', sans-serif;
+  overflow:visible;
 
-    border-color: rgba(230, 4, 4, 0.829);
-    border-width: 2px;
-    border-style: dashed; 
+  border-color: rgba(230, 4, 4, 0.829);
+  border-width: 2px;
+  border-style: dashed;
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    height: 98vh;
-    width: 98vw;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  flex-wrap: wrap;
+  height: 98vh;
+  width: 98vw;
+  justify-content: center;
+  align-items: center;
 
-
-    border-color: rgb(90, 224, 49);
-    border-width: 4px;
-    border-style: dashed;
+  border-color: rgb(90, 224, 49);
+  border-width: 4px;
+  border-style: dashed;
 }
 
 .container-tv {
-    display: flex;
-    position: relative;
-    justify-items: center;
-    justify-content: center;
-    color: var(--secondary-color);
+  display: flex;
+  position: relative;
+  justify-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  left: 4%;
+  bottom: 4%;
 
-    border-color: rgb(228, 243, 20);
-    border-width: 3px;
-    border-style: solid;
-
+  border-color: rgb(228, 243, 20);
+  border-width: 3px;
+  border-style: solid;
 }
+
 .logo{
-    position: absolute;
-    z-index: 2;
-    font-size: var(--font-gral);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2;
+  font-size: var(--font-gral);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
 .tv-image {
-  /* mantentengo la imagen siempre ya que no cambia */
   position: relative;
   object-fit: contain;
-  /* Mantiene la relación de aspecto */
   justify-items: center;
   pointer-events: none;
-  /* OJO mantener esta relacion porcentaje vw para tener responsive la tv con el video */
-  height: 80%;
-  width: 70vw;
-  content: url("/assets/images/web\ template\ Tele\ sola2.png");
+  /* height: 80%; */
+  width: 75vw;
+  content: url("/assets/images/web-template-Tele-sola2\ animacion.gif");
+  /* opacity: 0.3; */
   z-index: 1;
 }
 
 .tv-video {
+  /* max-width: 90%; */
+  /*max-height: 90%; */
+  position: absolute;
+  border: none;
+  /* box-shadow: 0px -1px 8px 10px rgba(0, 0, 0, 0.6); */
+  /* opacity: 0.8; */
+  border-radius: 4%;
+  z-index: 0;
 
-    /* max-width: 90%;
-    max-height: 90%; */
-    position: absolute;
-    border: none;
-    box-shadow: 0px -1px 8px 10px rgba(0, 0, 0, 0.6);
-    opacity: 0.8;
-    border-radius: 4%;
-    z-index: 0;
-}
-
-/* la posicion del video queda fija ya que se determina con el container-tv automaticamente */
-.tv-video {
-  position:absolute;
-  top: 10%;
-  left: 8%;
+  top: 11%;
+  left: 7%;
   height: 76%; 
-  width: 44vw;
+  width: 47vw;
 }
 
 /* Estilos para la fuente de GoogleFonts */
 .titillium-web-extralight {
-    font-family: "Titillium Web", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
+  font-family: "Titillium Web", serif;
+  font-weight: 200;
+  font-style: normal;
+}
   
-  .titillium-web-light {
-    font-family: "Titillium Web", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
+.titillium-web-light {
+  font-family: "Titillium Web", serif;
+  font-weight: 300;
+  font-style: normal;
+}
   
-  .titillium-web-regular {
-    font-family: "Titillium Web", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+.titillium-web-regular {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: normal;
+}
   
-  .titillium-web-semibold {
-    font-family: "Titillium Web", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
+.titillium-web-semibold {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  font-style: normal;
+}
   
-  .titillium-web-bold {
-    font-family: "Titillium Web", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
+.titillium-web-bold {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 600;
+  font-style: italic;
+}
   
-  .titillium-web-black {
-    font-family: "Titillium Web", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .titillium-web-extralight-italic {
-    font-family: "Titillium Web", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .titillium-web-light-italic {
-    font-family: "Titillium Web", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .titillium-web-regular-italic {
-    font-family: "Titillium Web", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .titillium-web-semibold-italic {
-    font-family: "Titillium Web", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .titillium-web-bold-italic {
-    font-family: "Titillium Web", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", serif;
+  font-weight: 700;
+  font-style: italic;
+}
