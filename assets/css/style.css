@@ -25,7 +25,7 @@ body {
   flex-wrap: wrap;
   height: 100vh;
 
-  background-image: url(/assets/images/IMG_9048.PNG); 
+  background-image: url(/assets/images/Fondo-horizontal-1024.PNG); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,8 +62,6 @@ body {
   justify-items: center;
   justify-content: center;
   color: var(--secondary-color);
-  left: 4%;
-  bottom: 4%;
 
   border-color: rgb(228, 243, 20);
   border-width: 3px;
@@ -101,9 +99,9 @@ body {
   z-index: 0;
 
   top: 11%;
-  left: 7%;
+  /* left: 7%; */
   height: 76%; 
-  width: 47vw;
+  width: 50vw;
 }
 
 /* Estilos para la fuente de GoogleFonts */
