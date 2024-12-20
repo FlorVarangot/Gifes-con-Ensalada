@@ -29,12 +29,10 @@ body {
     flex-wrap: wrap;
     height: 100vh;
 
-
     background-image: url(/assets/images/Fondo-Horizontal-1440x1350.png); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 
     align-items: center;
     justify-content: center;
@@ -71,13 +69,9 @@ body {
     justify-content: center;
     color: var(--secondary-color);
 
-  
-
-    
     border-color: rgb(228, 243, 20);
     border-width: 3px;
     border-style: solid;
-
 
 }
 .logo{
@@ -85,15 +79,21 @@ body {
     z-index: 2;
     font-size: var(--font-gral);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
 }
 
 .tv-image {
-    position: relative;   
-
-    object-fit: contain; /* Mantiene la relación de aspecto */
-    justify-items: center;
-    pointer-events: none;
-    z-index: 1;
+  /* mantentengo la imagen siempre ya que no cambia */
+  position: relative;
+  object-fit: contain;
+  /* Mantiene la relación de aspecto */
+  justify-items: center;
+  pointer-events: none;
+  /* OJO mantener esta relacion porcentaje vw para tener responsive la tv con el video */
+  height: 80%;
+  width: 70vw;
+  content: url("/assets/images/web\ template\ Tele\ sola2.png");
+  z-index: 1;
 }
 
 .tv-video {
