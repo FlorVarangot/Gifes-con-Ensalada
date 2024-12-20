@@ -36,7 +36,7 @@ body {
   justify-items: center;
 
   font-family: 'Titillium Web', sans-serif;
-  overflow:visible;
+  overflow:hidden;
 
   border-color: rgba(230, 4, 4, 0.829);
   border-width: 2px;
