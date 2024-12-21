@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 :root {
-    --primary-color: #eee;
+    --primary-color: #ffffff;
     --font-gral: 1.5rem;
     --font-dos: 1rem;
+    --font-iconos: 2.5rem;
     --font-mini: 0.8rem;
     --titulo: 8vh;
 }
@@ -38,9 +39,9 @@ body {
   font-family: 'Titillium Web', sans-serif;
   overflow:hidden;
 
-  border-color: rgba(230, 4, 4, 0.829);
+  /* border-color: rgba(230, 4, 4, 0.829);
   border-width: 2px;
-  border-style: dashed;
+  border-style: dashed; */
 }
 
 .main {
@@ -51,30 +52,51 @@ body {
   justify-content: center;
   align-items: center;
 
-  border-color: rgb(90, 224, 49);
+  /* border-color: rgb(90, 224, 49);
   border-width: 4px;
-  border-style: dashed;
+  border-style: dashed; */
 }
 
 .container-tv {
   display: flex;
+  flex-direction: column;
   position: relative;
   justify-items: center;
   justify-content: center;
-  /* color: var(--secondary-color); */
   left:3%;
-
-  border-color: rgb(228, 243, 20);
+  color: var(--primary-color);
+  
+  /* border-color: rgb(228, 243, 20);
   border-width: 3px;
-  border-style: solid;
+  border-style: solid; */
 }
 
-.logo{
+.rrss {
   position: absolute;
+  bottom: 9.5%;
+  left: 78.5%;
+  display: flex;
+  flex-direction: column;
   z-index: 2;
-  font-size: var(--font-gral);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
+.logos {
+  display: flex;
+  gap: 35%;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-iconos);
+}
+
+.mail-info {
+  padding-top: 135%;
+  margin-left: 48%;
+  font-size: var(--font-gral);
 }
 
 .tv-image {

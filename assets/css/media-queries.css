@@ -54,6 +54,55 @@
     } */
 }
 
+
+
+@media (max-width: 1200px) {
+    /* .tv-image {
+        width: 70vw;
+    }
+    .tv-video {
+        width: 45vw;
+        height: 70%;
+    } */
+    .rrss {
+        left: 70%;
+    }
+}
+  
+@media (max-width: 768px) {
+    /* .tv-image {
+
+    }
+    .tv-video {
+        width: 65vw;
+        height: 60%;
+    } */
+
+    .rrss {
+        font-size: var(--font-dos);
+        left: 60%;
+        bottom: 5%;
+    }
+}
+  
+@media (max-width: 480px) {
+    .logo{
+        font-size: var(--font-mini);
+    }
+
+    .mail-info {
+        margin-top: -22%;
+        margin-left: 50%;
+        font-size: var(--font-mini);
+    }
+
+    .rrss {
+        color:darkgray;
+        left: 37%;
+        top: 129%;
+    }
+}
+
 /* Estilos para celulares en modo horizontal */
 /* @media (max-width: 1023px) and (orientation: landscape) {
 
