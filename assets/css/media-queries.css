@@ -1,6 +1,5 @@
 /* Estilos para tabletas y celulares en modo vertical  */
 @media (max-width: 1024px) and (orientation: portrait) {
-    
     .body{
         background-image: url(/assets/images/update/web\ template\ Fondo\ Vertical\ 4Anim.GIF);
         background-size:100% 100%;
@@ -8,8 +7,8 @@
     }
 
     .container-tv{
-      bottom: 22vw;
-      left:1%;
+        bottom: 22vw;
+        left:1%;
     }
 
     .tv-video{
@@ -17,7 +16,7 @@
         width: 49vw;
         left: 5%;
     }
-    
+
     /* .logo{
         font-size: 1.9rem;
         top:56.8%;
@@ -61,22 +60,19 @@
 */
 /*  273 => 360 height*/
 @media  (max-height:273px) and (orientation:landscape) {
-    
-
     .tv-image {
         height: 75%;
         width: 50vw;
-
     }
 
     .tv-video{
-
         top: 11%;
         left: 6%;
         height: 77%; 
         width: 32vw;
-    } 
-    .logo{
+    }
+
+    /* .logo{
         font-size: var(--font-mini);
     }
 
@@ -88,8 +84,8 @@
     .logo-giphy{
         left: 20%;
 
-    }
-    .rrss {
+    } */
+    /* .rrss {
  
         border-color: aliceblue;
         border-width: 2px;
@@ -98,11 +94,11 @@
         margin-left: 8%;       
         color:darkgray;
    
-    }
-
+    } */
 }
+
 @media (min-height: 274px) and (max-height:393px) and (orientation:landscape) {
-    .main{background-color: rgb(98, 0, 255);}
+    /* .main{background-color: rgb(98, 0, 255);} */
     .tv-image {
         height: 75%;
         width: 59vw;
@@ -115,36 +111,37 @@
         width: 38vw;
     } 
 }
+
 @media (min-height: 394px) and (orientation:landscape) {
-    .main{background-color: rgb(217, 255, 0);}
+    /* .main{background-color: rgb(217, 255, 0);} */
     .tv-image {
         height: 75%;
         width: 72vw;
     }
 }
 
-
+/* 
 @media (max-width: 1200px) {
-    /* .tv-image {
+    .tv-image {
         width: 70vw;
     }
     .tv-video {
         width: 45vw;
         height: 70%;
-    } */
+    }
     .rrss {
         left: 70%;
     }
 }
   
 @media (max-width: 768px) {
-    /* .tv-image {
+    .tv-image {
 
     }
     .tv-video {
         width: 65vw;
         height: 60%;
-    } */
+    }
 
     .rrss {
         font-size: var(--font-dos);
@@ -169,73 +166,4 @@
         left: 37%;
         top: 129%;
     }
-}
-
-/* Estilos para celulares en modo horizontal */
-/* @media (max-width: 1023px) and (orientation: landscape) {
-
-    .tv-image {
-        height: 75%;
-        width: 54vw;
-    }
-
-    .container-tv{
-        left: 3%;
-        bottom: 1%;
-    }
-    
-    .tv-video{
-        top: 11%;
-        left: 5%;
-        height: 76%; 
-        width: 35vw;
-    } */
-
-    /* .logo{
-        font-size: 0.6rem;
-        top:91%;
-        left:14%;
-    }
-
-    .logo-ig{
-        left:48%;
-    }
-
-    .mail-info {
-       left:73%;
-    } */
-/* } */
-
-/* @media (min-height: 200px) and (max-width: 1023px) and (orientation: landscape) {
-
-    .tv-image {
-        height: 75%;
-        width: 54vw;
-    }
-
-    .container-tv{
-        left: 3%;
-        bottom: 1%;
-    }
-    
-    .tv-video{
-        top: 11%;
-        left: 5%;
-        height: 76%; 
-        width: 35vw;
-    } */
-
-    /* .logo{
-        font-size: 0.6rem;
-        top:91%;
-        left:14%;
-    }
-
-    .logo-ig{
-        left:48%;
-    }
-
-    .mail-info {
-       left:73%;
-    } */
-/* } */
+} */

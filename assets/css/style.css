@@ -3,7 +3,7 @@
     --primary-color: #ffffff;
     --font-gral: 1.5rem;
     --font-dos: 1rem;
-    --font-iconos: 2.5rem;
+    --font-iconos: 2.5vw;
     --font-mini: 0.8rem;
     --titulo: 8vh;
 }
@@ -71,7 +71,7 @@ body {
   border-style: solid; */
 }
 
-.rrss {
+/* .rrss {
   position: absolute;
   bottom: 8.2%;
   left: 78.5%;
@@ -98,7 +98,38 @@ body {
   padding-top: 135%;
   margin-left: 48%;
   font-size: var(--font-gral);
+} */
+
+/* ---- */
+.rrss {
+  position: absolute;
+  bottom: 10%;
+  left: 83.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 10rem; */
+  gap: 20vh;
+  width:70%;
+  z-index: 2;
+  transform: translate(-50%, 0);
 }
+
+.logos {
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+}
+
+.logo {
+  font-size: var(--font-iconos);
+}
+
+.mail-info {
+  font-size: calc(var(--font-iconos) * 0.7);
+  text-align: center;
+}
+/* ---- */
 
 .tv-image {
   position: relative;
