@@ -133,7 +133,6 @@ body {
   font-size: calc(var(--font-iconos) * 0.7);
   text-align: center;
   z-index: 2;
-
   display:none;
 }
 
