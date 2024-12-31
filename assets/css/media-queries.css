@@ -17,40 +17,17 @@
         left: 5%;
     }
 
-    /* .logo{
-        font-size: 1.9rem;
-        top:56.8%;
+    .logos {
+        margin-bottom: 116%;
+        gap: 3.3vw;
     }
-
-    .logo-ig{
-        top:68%;
-    }
-
-    .mail-info {
-        top:81.2%;
-    } */
 }
 
-  /*@media (min-height: 375px) and (max-width: 1280px) and (orientation: landscape) {
-    
+/*@media (min-height: 375px) and (max-width: 1280px) and (orientation: landscape) {    
     .tv-image {
         height: 75%;
         width: 70vw;
     }
-
-    
-   .logo{
-        font-size: 1.9rem;
-        top:56.8%;
-    }
-
-    .logo-ig{
-        top:68%;
-    }
-
-    .mail-info {
-        top:81.2%;
-    } 
 }*/
 
 /* El iphone x de 375x812 reacciona  a la media de widht 731px no a 812px MAX-WIDHT* y ancho 320px/
@@ -71,30 +48,6 @@
         height: 77%; 
         width: 32vw;
     }
-
-    /* .logo{
-        font-size: var(--font-mini);
-    }
-
-    .mail-info {
-        margin-top: -100%;
-        margin-left: 9%;
-        font-size: var(--font-mini);
-    }
-    .logo-giphy{
-        left: 20%;
-
-    } */
-    /* .rrss {
- 
-        border-color: aliceblue;
-        border-width: 2px;
-        border-style: dotted;
-    
-        margin-left: 8%;       
-        color:darkgray;
-   
-    } */
 }
 
 @media (min-height: 274px) and (max-height:393px) and (orientation:landscape) {
@@ -119,6 +72,7 @@
         width: 72vw;
     }
 }
+
 
 /* 
 @media (max-width: 1200px) {

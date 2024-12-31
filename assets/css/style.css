@@ -101,6 +101,7 @@ body {
 } */
 
 /* ---- */
+
 .rrss {
   position: absolute;
   bottom: 10%;
@@ -108,9 +109,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* gap: 10rem; */
-  gap: 20vh;
-  width:70%;
   z-index: 2;
   transform: translate(-50%, 0);
 }
@@ -118,7 +116,7 @@ body {
 .logos {
   display: flex;
   gap: 3vw;
-  justify-content: center;
+  margin-bottom: 110%;
 }
 
 .logo {
@@ -129,6 +127,7 @@ body {
   font-size: calc(var(--font-iconos) * 0.7);
   text-align: center;
 }
+
 /* ---- */
 
 .tv-image {
@@ -136,23 +135,16 @@ body {
   object-fit: contain;
   justify-items: center;
   pointer-events: none;
-  /* height: 80%; */
   width: 75vw;
   content: url("/assets/images/web-template-Tele-sola2\ animacion.gif");
-  /* opacity: 0.3; */
   z-index: 1;
 }
 
 .tv-video {
-  /* max-width: 90%; */
-  /*max-height: 90%; */
   position: absolute;
   border: none;
-  /* box-shadow: 0px -1px 8px 10px rgba(0, 0, 0, 0.6); */
-  /* opacity: 0.8; */
   border-radius: 4%;
   z-index: 0;
-
   top: 11%;
   left: 4%;
   height: 76%;
