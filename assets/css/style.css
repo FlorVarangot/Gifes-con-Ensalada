@@ -95,7 +95,6 @@ body {
 .mail-info {
   font-size: calc(var(--font-iconos) * 0.7);
   text-align: center;
-  cursor: text;
 }
 
 .mail-info-2{
@@ -103,7 +102,6 @@ body {
   font-size: calc(var(--font-iconos) * 0.7);
   text-align: center;
   z-index: 2;
-  cursor: default;
   display:none;
 }
 
