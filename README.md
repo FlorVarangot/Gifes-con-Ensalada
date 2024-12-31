@@ -1,6 +1,6 @@
 # Gifes con Ensalada (GCE)
 ## Descripción
-Gifes con Ensalada es una plataforma donde los artistas digitales de la banda comparten las animaciones y audiovisuales creados. Este proyecto, es la primera versión del sitio web.
+Gifes con Ensalada es una plataforma donde los artistas digitales de la banda comparten las animaciones y audiovisuales creados. Este proyecto, es la primera versión de lo que será un sitio web.
 
 ## Características
 - Ilustraciones en fondo y marcos con estética de la banda.
@@ -25,7 +25,7 @@ Para clonar y ejecutar este proyecto localmente, sigue estos pasos:
    - Abrir el archivo 'index.html' en tu navegador web preferido para ver la página localmente.
 
 ## Uso
-- Pueden acceder a la página web en vivo en [Github Pages](https://florvarangot.github.io/Gifes-con-Ensalada/) o [Netlify](https://gifesconensalada.netlify.app) 
+- Pueden acceder a la página web en vivo en [Netlify](https://gifesconensalada.netlify.app) 
 
 ## Contacto
 Para más información, contactar a:
@@ -37,7 +37,7 @@ Para más información, contactar a:
 - **Idea original:** GCE
 - **Diseño y desarrollo:** Flor R. Varangot
 - **Asesoría y contribuciones**: Alfredo Leonardo Otazo 
-- **Imágenes:** GCE
+- **Imágenes, música y video original:** GCE
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
