@@ -12,7 +12,7 @@
     }
 
     .tv-video{
-        width: 60vw;
+        width: 61vw;
     }
 
     .logos {
@@ -91,7 +91,7 @@
 }
 
 @media (min-height: 394px) and (orientation:landscape) {
-    .main{background-color: rgb(217, 255, 0);}
+    /* .main{background-color: rgb(217, 255, 0);} */
     .tv-image {
         height: 75%;
         width: 72vw;
