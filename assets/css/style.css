@@ -121,7 +121,7 @@ body {
 .tv-video {
   position: absolute;
   border: none;
-  border-radius: 4%;
+  border-radius: 5%;
   z-index: 0;
 
   /* Si se usa YouTube: */
